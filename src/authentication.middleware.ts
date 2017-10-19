@@ -4,7 +4,7 @@ import {expressJwtSecret} from 'jwks-rsa';
 
 @Middleware()
 export class AuthenticationMiddleware implements NestMiddleware {
-    resolve(...args: any[]): ExpressMiddleware {
+    resolve(): ExpressMiddleware {
         return jwt({
             secret: expressJwtSecret({
                 cache: true,

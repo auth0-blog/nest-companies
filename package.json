@@ -17,7 +17,7 @@
     "@types/express-jwt": "0.0.37",
     "body-parser": "^1.18.2",
     "express-jwt": "^5.3.0",
-    "jwks-rsa": "^1.2.0",
+    "jwks-rsa": "^1.2.1",
     "reflect-metadata": "^0.1.10",
     "rxjs": "^5.4.3",
     "typescript": "^2.5.3"
